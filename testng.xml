@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<suite name="eBay Testing Playwright Suite">
+    <listeners>
+        <listener class-name="com.qa.ebay.utilities.ExtentListener"/>
+    </listeners>
+
+    <test name="Test Cases  ">
+        <classes>
+            <class name="com.qa.ebay.test.HomePageTest"/>
+            <class name="com.qa.ebay.test.ProductPageTest"/>
+        </classes>
+    </test>
+
+</suite>
